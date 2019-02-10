@@ -1,0 +1,26 @@
+"Challenges" pour app de base
+
+Ici il s'agit simplement de pouvoir poster des petites annonces avec photos pour les utilisateurs inscris
+
+
+Features techniques :
+
+uploader un fichier et http serve des fichiers dans un dossier externe à static, modifiable dans la conf
+
+template de mails et code de validation d inscription par mail
+
+consommation d'API externe
+
+auth basic avec authprovider
+
+export pdf ou csv de data
+
+servir du code angular intégré a static
+
+optionnel :
+
+déploiements : docker, gcp, heroku et cloud foundry
+
+oauth2 client vers keycloak
+
+migration des data jpa avec flyway
