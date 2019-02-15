@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/admin")
-@PreAuthorize("hasRole('ROLE_admin')")
-public class AdminController {
-
-	//manage users
+@RequestMapping("/regular")
+@PreAuthorize("hasRole('ROLE_regular')")
+public class RegularController {
+	
+	//crud ad, post file, answer to someone
 	
 	
 	@GetMapping("/ping")
@@ -18,4 +18,5 @@ public class AdminController {
 	{
 		return "OK";
 	}
+
 }

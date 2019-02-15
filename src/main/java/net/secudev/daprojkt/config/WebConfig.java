@@ -1,4 +1,4 @@
-package net.secudev.daprojkt.security;
+package net.secudev.daprojkt.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

@@ -6,13 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/admin")
-@PreAuthorize("hasRole('ROLE_admin')")
-public class AdminController {
+@RequestMapping("/vip")
+@PreAuthorize("hasRole('ROLE_vip')")
+public class VIPController {
 
-	//manage users
-	
-	
 	@GetMapping("/ping")
 	public String ping()
 	{

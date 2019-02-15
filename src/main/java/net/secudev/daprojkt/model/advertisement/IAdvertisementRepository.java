@@ -1,4 +1,4 @@
-package net.secudev.daprojkt.model;
+package net.secudev.daprojkt.model.advertisement;
 
 public interface IAdvertisementRepository {
 
